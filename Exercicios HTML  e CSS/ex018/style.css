@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*
+tudo que em HTML é id em CSS é #
+*/
+
+body{
+    background-image: linear-gradient(to right, #10454F, #A3AB78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #91a4a8;
+}
+
+h1#principal{
+    text-align: center;
+    color: #dfeeab;
+}
+
+h2{
+    color: #818274;
+}
