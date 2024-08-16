@@ -66,3 +66,49 @@ article#p2{
     top: 150px;
     max-width: 400px;
 }
+
+article#p3{
+    margin-top: 20px;
+}
+
+article#p4{
+    margin-top: 30px;
+}
+
+article#p5{
+    background-color: rgba(255, 255, 255, 0.322);
+    position: relative;
+    top: 150px;
+    max-width: 400px;
+}
+
+main section#background2{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
+    margin-right: -1000px;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+article#p6{
+    margin-top: 30px;
+}
+
+article#p7{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+}
