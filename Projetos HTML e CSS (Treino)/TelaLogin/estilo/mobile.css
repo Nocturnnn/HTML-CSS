@@ -12,7 +12,7 @@
 
 body, html{
     background-color: var(--cor1);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main{
@@ -24,11 +24,14 @@ main{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
 
+    transition: width 0.8s, height 0.8s;
+
     /* meio da tela */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition-timing-function: ease;
 }
 
 #foto{
