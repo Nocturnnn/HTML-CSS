@@ -19,6 +19,28 @@
         float: right;
         width: 70%;
     }
+
+    section h1{
+        padding: 20px;
+        font-size: 2em;
+    }
+
+    section p{
+        padding: 20px;
+    }
+
+    div.pr{
+        display: block;
+        padding: 20px;
+        width: 70%;
+        margin-top: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    }
+
+    #entrar, #esquecisenha{
+        margin: auto;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 998px){
@@ -27,14 +49,36 @@
     }
 
     div#foto{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section{
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
+    }
+
+    section h1{
+        padding: 20px;
+        font-size: 2em;
+    }
+
+    section p{
+        padding: 30px;
+    }
+
+    div.pr{
+        display: block;
+        padding: 20px;
+        width: 70%;
+        margin-top: 25px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    }
+
+    #entrar, #esquecisenha{
+        margin: auto;
+        margin-top: 45px;
     }
 }
