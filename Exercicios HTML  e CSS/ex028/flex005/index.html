@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexBox</title>
+    <title>FlexBox centralizado</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            background-color: cadetblue;
+        }
+
+        section{
+            width: 200px;
+            height: 400px;
+            background-color: aquamarine;
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
 </body>
 </html>
